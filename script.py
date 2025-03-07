@@ -32,7 +32,7 @@ def scrape_data_point():
         return data_point
     
     headers = {
-    "User-Agent": "cis3500-scraper"
+    "User-Agent": "cis3500-scraper-1"
     }
 
 
