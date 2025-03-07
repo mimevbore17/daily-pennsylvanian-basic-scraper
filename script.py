@@ -20,6 +20,10 @@ def scrape_data_point():
     Returns:
         str: The headline text if found, otherwise an empty string.
     """
+    headers = {
+    "User-Agent": "cis3500-scraper-1"
+    }
+    
     req = requests.get("https://www.thedp.com", headers=headers)
     loguru.logger.info(f"Request URL: {req.url}")
     loguru.logger.info(f"Request status code: {req.status_code}")
@@ -30,10 +34,6 @@ def scrape_data_point():
         data_point = "" if target_element is None else target_element.text
         loguru.logger.info(f"Data point: {data_point}")
         return data_point
-    
-    headers = {
-    "User-Agent": "cis3500-scraper-1"
-    }
 
 
 if __name__ == "__main__":
