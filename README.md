@@ -135,3 +135,6 @@ But it is important to use it responsibly and ethically. Here are some guideline
 9. Document your scraping process thoroughly for replicability, transparency and accountability.
 
 10. Continuously re-evaluate your scraping program against applicable laws and ethical principles.
+
+## My change
+I adapted the scraper to give the second headline on the front page rather than the main headline. I did this because, in my expereince, the headlines that aren't the main are sometimes more interesting to me. They are usually more niche and about topics that are maybe deemed "controversial"
